@@ -1,9 +1,6 @@
 #!/usr/bin/python3
-
-import string
-
-alphabet = string.ascii_lowercase
-
-for letter in alphabet:
-    print(letter, end='')
+for i in range(97, 123):
+    if (i == 101) or (i == 113):
+        continue
+    print(chr(i).format(), end="")
 
